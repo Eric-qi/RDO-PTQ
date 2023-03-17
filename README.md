@@ -1,4 +1,4 @@
-# Quantization LIC and RDO-PTQ
+# Quantization and RDO-PTQ
 
 
 
