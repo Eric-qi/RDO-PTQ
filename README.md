@@ -10,7 +10,7 @@ We do not notice any publicly accessible materials for quantizing LIC and we try
 * **A partial materials of the RDO-PTQ:** code, models, datasets
 * **Reproduction:** the reproduction and improvement of some quantization for LIC, SR (super-resoluation) and Image Classification
 
-> **Note**: Due to the limitations of the capabilities, some errors and bugs are inevitable. Our goal is to provide some models and data that are easy to use.
+> **Note**: Due to the limitations of the capabilities, some errors and bugs are inevitable. Our goal is to provide some materials and data that are easy to use.
 
 
 
