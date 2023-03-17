@@ -1,10 +1,10 @@
-# Quantization and RDO-PTQ
+# Quantization, LIC and RDO-PTQ
 
 
 
 
 ## Overview
-We do not notice any publicly accessible materials for quantizing LIC and we try to provide some quantized models. We currently provides:
+We do not notice any publicly accessible materials for quantizing LIC and we try to provide some materials. We currently provides:
 * **Literature Comparison:** data statistics about LIC quantization
 * **PTQ optimization:** task-oriented PTQ works and novel PTQ works
 * **A partial materials of the RDO-PTQ:** code, models, datasets
