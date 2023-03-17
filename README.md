@@ -18,15 +18,15 @@ We do not notice any publicly accessible materials for quantizing LIC and we try
 
 ## Literature Comparison
 ### We researched most of works on quantization of LIC as we can. These works containg:
-* [ICLR 2019] `Ballé et al., 2019` : [`Interger Networks for Data Compression with Latent-Variable Models`](https://openreview.net/forum?id=S1zz2i0cY7) 
-* [ICIP 2020] `Sun et al., 2020` : [`End-to-End Learned Image Compression with Fixed Point Weight Quantization`](https://ieeexplore.ieee.org/abstract/document/9190805) 
-* [TCSV T2020] `Hong et al., 2020` : [`Efficient Neural Image Decoding via Fixed-Point Inference`](https://ieeexplore.ieee.org/abstract/document/9270012) 
-* [PCS 2021] `Sun et al., 2021` : [`Learned Image Compression with Fixed-point Arithmetic`](https://ieeexplore.ieee.org/abstract/document/9477496) 
-* [Arxiv 2021] `Sun et al., 2021*` : [`End-to-End Learned Image Compression with Quantized Weights and Activations`](https://arxiv.org/abs/2111.09348) 
-* [Arxiv 2022] `He et al., 2022` : [`Post-Training Quantization for Cross-Platform Learned Image Compression`](https://arxiv.org/abs/2202.07513) 
-* [PCS 2022] `Koyuncu et al., 2022` : [`Device Interoperability for Learned Image Compression with Weights and Activations Quantization`](https://ieeexplore.ieee.org/abstract/document/10018040)
-* [TCSVT2022] `Sun et al., 2022` : [`Q-LIC: Quantizing Learned Image Compression with Channel Splitting`](https://ieeexplore.ieee.org/abstract/document/9997555)
-* [Arxiv 2022] `Shi et al., 2022` : [`Rate-Distortion Optimized Post-Training Quantization for Learned Image Compression`](https://arxiv.org/pdf/2211.02854v1.pdf)
+* [[ICLR 2019]](https://openreview.net/forum?id=S1zz2i0cY7) `Ballé et al., 2019` : Interger Networks for Data Compression with Latent-Variable Models
+* [[ICIP 2020]](https://ieeexplore.ieee.org/abstract/document/9190805) `Sun et al., 2020` : End-to-End Learned Image Compression with Fixed Point Weight Quantization
+* [[TCSV T2020]](https://ieeexplore.ieee.org/abstract/document/9270012) `Hong et al., 2020` : Efficient Neural Image Decoding via Fixed-Point Inference
+* [[PCS 2021]](https://ieeexplore.ieee.org/abstract/document/9477496)  `Sun et al., 2021` : Learned Image Compression with Fixed-point Arithmetic
+* [[Arxiv 2021]](https://arxiv.org/abs/2111.09348) `Sun et al., 2021*` : End-to-End Learned Image Compression with Quantized Weights and Activations
+* [[Arxiv 2022]](https://arxiv.org/abs/2202.07513) `He et al., 2022` : Post-Training Quantization for Cross-Platform Learned Image Compression
+* [[PCS 2022]](https://ieeexplore.ieee.org/abstract/document/10018040) `Koyuncu et al., 2022` : Device Interoperability for Learned Image Compression with Weights and Activations Quantization
+* [[TCSVT2022]](https://ieeexplore.ieee.org/abstract/document/9997555) `Sun et al., 2022` : Q-LIC: Quantizing Learned Image Compression with Channel Splitting
+* [[Arxiv 2022]](https://arxiv.org/pdf/2211.02854v1.pdf) `Shi et al., 2022` : Rate-Distortion Optimized Post-Training Quantization for Learned Image Compression
 * [`updating`]()
 
 ### Results of quantizing LIC in terms of BD-rate.
@@ -51,14 +51,14 @@ We do not notice any publicly accessible materials for quantizing LIC and we try
 
 
 ### The models of above table mentioned:
-* [ICLR 2018] `Ballé2018` : [`Variational Image Compression with a Scale Hyperprior`](https://arxiv.org/abs/1802.01436)
-* [NeurIPS 2018] `Minnen2018` : [`Joint Autoregressive and Hierarchical Priors for Learned Image Compression`](https://proceedings.neurips.cc/paper/2018/hash/53edebc543333dfbf7c5933af792c9c4-Abstract.html)
-* [CVPR Workshop 2019] `Cheng2019` : [`Deep Residual Learning for Image Compression`](https://arxiv.org/abs/1906.09731)
-* [CVPR 2020] `Cheng2020` : [`Learned Image Compression With Discretized Gaussian Mixture Likelihoods and Attention Modules`](https://openaccess.thecvf.com/content_CVPR_2020/html/Cheng_Learned_Image_Compression_With_Discretized_Gaussian_Mixture_Likelihoods_and_Attention_CVPR_2020_paper.html)
-* [TIP 2021] `Chen2021`: [`End-to-End Learnt Image Compression via Non-Local Attention Optimization and Improved Context Modeling`](https://ieeexplore.ieee.org/document/9359473)
-* [JPEG AI CfP 2022] `TEAM14` : [`Presentation of the Huawei response to the JPEG AI Call for Proposals: Device agnostic learnable image coding using primary component extraction and conditional coding`](https://jpeg.org/jpegai/)
-* [Arxiv 2022] `Lu2022` : [`High-Efficiency Lossy Image Coding Through Adaptive Neighborhood Information Aggregation`](https://arxiv.org/abs/2204.11448)
-* [DCC 2022] `Lu2022*` : [`Transformer-based Image Compression`](https://arxiv.org/abs/2111.06707)
+* [[ICLR 2018]](https://arxiv.org/abs/1802.01436) `Ballé2018` : Variational Image Compression with a Scale Hyperprior
+* [[NeurIPS 2018]](https://proceedings.neurips.cc/paper/2018/hash/53edebc543333dfbf7c5933af792c9c4-Abstract.html) `Minnen2018` : Joint Autoregressive and Hierarchical Priors for Learned Image Compression
+* [[CVPR Workshop 2019]](https://arxiv.org/abs/1906.09731) `Cheng2019` : Deep Residual Learning for Image Compression
+* [[CVPR 2020]](https://openaccess.thecvf.com/content_CVPR_2020/html/Cheng_Learned_Image_Compression_With_Discretized_Gaussian_Mixture_Likelihoods_and_Attention_CVPR_2020_paper.html) `Cheng2020` : Learned Image Compression With Discretized Gaussian Mixture Likelihoods and Attention Modules
+* [[TIP 2021]](https://ieeexplore.ieee.org/document/9359473) `Chen2021`: End-to-End Learnt Image Compression via Non-Local Attention Optimization and Improved Context Modeling
+* [[JPEG AI CfP 2022]](https://jpeg.org/jpegai/) `TEAM14` : Presentation of the Huawei response to the JPEG AI Call for Proposals: Device agnostic learnable image coding using primary component extraction and conditional coding
+* [[Arxiv 2022]](https://arxiv.org/abs/2204.11448) `Lu2022` : High-Efficiency Lossy Image Coding Through Adaptive Neighborhood Information Aggregation
+* [[DCC 2022]](https://arxiv.org/abs/2111.06707) `Lu2022*` : Transformer-based Image Compression
 
 ### The Datasets of above table mentioned:
 * [`Kodak`](https://r0k.us/graphics/kodak/) : with 24 image resolution at 768×512 
@@ -80,10 +80,10 @@ PTQ has attracted a lot of attention. More and more wroks try to push the limits
 ### Task-oriented optimization
 Recently, a lot of works have recognized that minimizing quantization error may not be optimal. We should pay more attention to the objects of tasks, e.g., the accuracy, the PSNR, the MS-SSIM. Therefore, these works push the limit of PTQ by minimizing task loss. We call this idea **Task-oriented optimization**.  Here are some works about this idea. These works containg:
 
-* [PMLR 2020] `AdaRound` : [`Up or Down? Adaptive Rounding for Post-Training Quantization`](https://proceedings.mlr.press/v119/nagel20a)
-* [Arxiv 2020] `AdaQuant` : [`Improving Post Training Neural Quantization: Layer-wise Calibration and Integer Programming`](https://arxiv.org/abs/2006.10518)
-* [ICLR 2021] `BRECQ` : [`BRECQ: Pushing the Limit of Post-Training Quantization by Block Reconstruction`](https://arxiv.org/abs/2102.05426)
-* [ICLR 2022] `QDrop` : [`QDrop: Randomly Dropping Quantization for Extremely Low-bit Post-Training Quantization`](https://arxiv.org/abs/2203.05740)
+* [PMLR 2020](https://proceedings.mlr.press/v119/nagel20a) `AdaRound` : [`Up or Down? Adaptive Rounding for Post-Training Quantization`]
+* [Arxiv 2020](https://arxiv.org/abs/2006.10518) `AdaQuant` : [`Improving Post Training Neural Quantization: Layer-wise Calibration and Integer Programming`]
+* [ICLR 2021](https://arxiv.org/abs/2102.05426) `BRECQ` : [`BRECQ: Pushing the Limit of Post-Training Quantization by Block Reconstruction`]
+* [ICLR 2022](https://arxiv.org/abs/2203.05740) `QDrop` : [`QDrop: Randomly Dropping Quantization for Extremely Low-bit Post-Training Quantization`]
 
 * [`updating`]()
 
