@@ -4,11 +4,11 @@
 
 
 ## Overview
-We do not notice any publicly accessible materials for quantizing LIC and we try to provide some materials. We currently provides:
+We do not notice any publicly accessible materials for quantizing LIC and we try to provide some materials. We will provide:
 * **Literature Comparison:** data statistics about LIC quantization
 * **PTQ optimization:** task-oriented PTQ works and novel PTQ works
-* **A partial materials of the RDO-PTQ:** code, models, datasets
 * **Reproduction:** the reproduction and improvement of some quantization for LIC, SR (super-resoluation) and Image Classification
+* **RDO-PTQ:** A partial materials of code, models, datasets
 
 > **Note**: Due to the limitations of the capabilities, some errors and bugs are inevitable. Our goal is to provide some materials and data that are easy to use.
 
@@ -16,7 +16,7 @@ We do not notice any publicly accessible materials for quantizing LIC and we try
 
 
 
-## Literature Comparison
+## 1.&ensp;Literature Comparison
 ### We researched most of works on quantization of LIC as we can. These works containg:
 * [[ICLR 2019]](https://openreview.net/forum?id=S1zz2i0cY7) `Ballé et al., 2019` : Interger Networks for Data Compression with Latent-Variable Models
 * [[ICIP 2020]](https://ieeexplore.ieee.org/abstract/document/9190805) `Sun et al., 2020` : End-to-End Learned Image Compression with Fixed Point Weight Quantization
@@ -31,18 +31,18 @@ We do not notice any publicly accessible materials for quantizing LIC and we try
 
 ### Results of quantizing LIC in terms of BD-rate.
 
-|        Methods       | Bit-Width (W/A) | Granularity  |  Type  |           Models          |  Kodak24 |  Other Datasets |
-| :------------------: | :-------------: | :----------: | :----: | :-----------------------: | :------: |  :------------: |
+|        Methods       | Bit-Width (W/A) | Granularity  |  Type  |           Models          |  Kodak24 | 
+| :------------------: | :-------------: | :----------: | :----: | :-----------------------: | :------: | 
 | `Ballé et al., 2019` |       None      |     None     |   QAT  |        Ballé2018          |   None   |
 |  `Sun et al., 2020`  |       8/32      | channel-wise |   QAT  |        Cheng2019          |   None   |
 |  `Hong et al., 2020` |       8/10      |  layer-wise  |   QAT  |  Ballé2018 <br> Chen2021  |  26.50% <br> 16.04%   |
 |  `Hong et al., 2020` |       8/16      |  layer-wise  |   QAT  |  Ballé2018 <br> Chen2021  |  17.90% <br> 3.25%    |
 |  `Sun et al., 2021`  |       8/32      | channel-wise |   QAT  |        Cheng2019          |          None         |
 |  `Sun et al., 2021*` |       8/8       | channel-wise |   QAT  |        Cheng2019          |          None         |
-|   `He et al., 2022`  |       8/8       | layer-wise (W) <br> channel-wise(A) |   PTQ  | Balle2018 <br> Minnen2018 <br> Cheng2020 |  None <br> 0.66% <br> 0.42% | None (Tecnick)
-|`Koyuncu et al., 2022`|      16/16      | channel-wise |   PTQ  |         TEAM14            |          0.29%        | 0.25% (Tecnick) |
-|  `Sun et al., 2022`  |       8/8       | channel-wise |   PTQ  | Cheng2019 <br> Cheng2020   |  4.98% & 4.34% (MS-SSIM) <br> 10.50% & 4.40% (MS-SSIM)        | None (CLIC) <br> 13.00% & 5.20% (MS-SSIM) |
-|  `Shi et al., 2022`  |       8/8       | channel-wise |   PTQ  | Minnen2018 <br> Cheng2020 <br> Lu2022  |  5.84% <br> 4.88% & 4.65% (MS-SSIM) <br> 3.70%   | 8.23% <br> 6.86% <br> 6.21% |
+|   `He et al., 2022`  |       8/8       | layer-wise (W) <br> channel-wise(A) |   PTQ  | Balle2018 <br> Minnen2018 <br> Cheng2020 |  None <br> 0.66% <br> 0.42% |
+|`Koyuncu et al., 2022`|      16/16      | channel-wise |   PTQ  |         TEAM14            |          0.29%        |
+|  `Sun et al., 2022`  |       8/8       | channel-wise |   PTQ  | Cheng2019 <br> Cheng2020   |  4.98% & 4.34% (MS-SSIM) <br> 10.50% & 4.40% (MS-SSIM)        |
+|  `Shi et al., 2022`  |       8/8       | channel-wise |   PTQ  | Minnen2018 <br> Cheng2020 <br> Lu2022  |  5.84% <br> 4.88% <br> 3.70%   |
 |  `Shi et al., 2022`  |      10/10      | channel-wise |   PTQ  | Minnen2018 <br> Cheng2020 <br> Lu2022  |  0.41% <br> 0.43% <br> 0.49%| 1.22% <br> 0.65% <br> 1.03% |
 
 ### The notion of above table mentioned:
@@ -56,7 +56,7 @@ We do not notice any publicly accessible materials for quantizing LIC and we try
 * [[CVPR Workshop 2019]](https://arxiv.org/abs/1906.09731) `Cheng2019` : Deep Residual Learning for Image Compression
 * [[CVPR 2020]](https://openaccess.thecvf.com/content_CVPR_2020/html/Cheng_Learned_Image_Compression_With_Discretized_Gaussian_Mixture_Likelihoods_and_Attention_CVPR_2020_paper.html) `Cheng2020` : Learned Image Compression With Discretized Gaussian Mixture Likelihoods and Attention Modules
 * [[TIP 2021]](https://ieeexplore.ieee.org/document/9359473) `Chen2021`: End-to-End Learnt Image Compression via Non-Local Attention Optimization and Improved Context Modeling
-* [[JPEG AI CfP 2022]](https://jpeg.org/jpegai/) `TEAM14` : Presentation of the Huawei response to the JPEG AI Call for Proposals: Device agnostic learnable image coding using primary component extraction and conditional coding
+* [[JPEG AI CfP 2022]](https://jpeg.org/jpegai/) `TEAM14` : Presentation of the Huawei response to the JPEG AI Call for Proposals: Device agnostic learnable image 								coding using primary component extraction and conditional coding
 * [[Arxiv 2022]](https://arxiv.org/abs/2204.11448) `Lu2022` : High-Efficiency Lossy Image Coding Through Adaptive Neighborhood Information Aggregation
 * [[DCC 2022]](https://arxiv.org/abs/2111.06707) `Lu2022*` : Transformer-based Image Compression
 
@@ -73,7 +73,7 @@ We do not notice any publicly accessible materials for quantizing LIC and we try
 
 
 
-## PTQ optimization
+## 2.&ensp;PTQ optimization
 
 PTQ has attracted a lot of attention. More and more wroks try to push the limits of PTQ. Here we introduce some novel works of PTQ.
 
@@ -90,8 +90,10 @@ Recently, a lot of works have recognized that minimizing quantization error may 
 
 
 
+## 3.&ensp；Reproduction
+updating
 
-## A partial materials of the RDO-PTQ 
+## 4.&ensp;RDO-PTQ 
 
 
 ```
@@ -100,9 +102,9 @@ updating ...
 
 
 
-## Reference
+## Citation
 
-If you find this repo useful for your research, please consider citing the paper:
+If you use this project, please considering citing the relevant original publications for the models and datasets, and citing the paper as:
 
 	@article{shi2022rate,
 	title={Rate-Distortion Optimized Post-Training Quantization for Learned Image Compression},
@@ -110,3 +112,8 @@ If you find this repo useful for your research, please consider citing the paper
 	journal={arXiv preprint arXiv:2211.02854},
 	year={2022}
 	}
+
+
+## Additional links
+
+updating
