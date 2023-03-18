@@ -108,10 +108,10 @@ updating ...
 If you use this project, please considering citing the relevant original publications for the models and datasets, and citing the paper as:
 
 	@article{shi2022rate,
-	title={Rate-Distortion Optimized Post-Training Quantization for Learned Image Compression},
-	author={Shi, Junqi and Lu, Ming and Chen, Fangdong and Pu, Shiliang and Ma, Zhan},
-	journal={arXiv preprint arXiv:2211.02854},
-	year={2022}
+		title={Rate-Distortion Optimized Post-Training Quantization for Learned Image Compression},
+		author={Shi, Junqi and Lu, Ming and Chen, Fangdong and Pu, Shiliang and Ma, Zhan},
+		journal={arXiv preprint arXiv:2211.02854},
+		year={2022}
 	}
 
 
