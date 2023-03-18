@@ -1,4 +1,4 @@
-# Quantization, LIC and RDO-PTQ
+# Rate-Distortion Optimized Post-Training Quantization for Learned Image Compression
 
 
 
@@ -80,17 +80,18 @@ PTQ has attracted a lot of attention. More and more wroks try to push the limits
 ### Task-oriented optimization
 Recently, a lot of works have recognized that minimizing quantization error may not be optimal. We should pay more attention to the objects of tasks, e.g., the accuracy, the PSNR, the MS-SSIM. Therefore, these works push the limit of PTQ by minimizing task loss. We call this idea **Task-oriented optimization**.  Here are some works about this idea. These works containg:
 
-* [PMLR 2020](https://proceedings.mlr.press/v119/nagel20a) `AdaRound` : [`Up or Down? Adaptive Rounding for Post-Training Quantization`]
-* [Arxiv 2020](https://arxiv.org/abs/2006.10518) `AdaQuant` : [`Improving Post Training Neural Quantization: Layer-wise Calibration and Integer Programming`]
-* [ICLR 2021](https://arxiv.org/abs/2102.05426) `BRECQ` : [`BRECQ: Pushing the Limit of Post-Training Quantization by Block Reconstruction`]
-* [ICLR 2022](https://arxiv.org/abs/2203.05740) `QDrop` : [`QDrop: Randomly Dropping Quantization for Extremely Low-bit Post-Training Quantization`]
+* [[PMLR 2020]](https://proceedings.mlr.press/v119/nagel20a) `AdaRound` : Up or Down? Adaptive Rounding for Post-Training Quantization
+* [[Arxiv 2020]](https://arxiv.org/abs/2006.10518) `AdaQuant` : Improving Post Training Neural Quantization: Layer-wise Calibration and Integer Programming
+* [[ML 2021]](https://link.springer.com/article/10.1007/s10994-021-06053-z) `LAPQ` : Loss aware post-training quantization`
+* [[ICLR 2021]](https://arxiv.org/abs/2102.05426) `BRECQ` : BRECQ: Pushing the Limit of Post-Training Quantization by Block Reconstruction
+* [[ICLR 2022]](https://arxiv.org/abs/2203.05740) `QDrop` : QDrop: Randomly Dropping Quantization for Extremely Low-bit Post-Training Quantization
 
-* [`updating`]()
+* [[updating]]()
 
 
 
 
-## 3.&ensp；Reproduction
+## 3.&ensp;Reproduction
 updating
 
 ## 4.&ensp;RDO-PTQ 
