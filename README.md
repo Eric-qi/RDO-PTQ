@@ -109,9 +109,9 @@ If you use this project, please considering citing the relevant original publica
 
 	@article{shi2022rate,
 		title={Rate-Distortion Optimized Post-Training Quantization for Learned Image Compression},
-		author={Shi, Junqi and Lu, Ming and Chen, Fangdong and Pu, Shiliang and Ma, Zhan},
+		author={Shi, Junqi and Lu, Ming and Ma, Zhan},
 		journal={arXiv preprint arXiv:2211.02854},
-		year={2022}
+		year={2023}
 	}
 
 
