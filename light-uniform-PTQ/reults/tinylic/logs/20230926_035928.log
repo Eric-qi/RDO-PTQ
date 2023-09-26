@@ -1,0 +1,7 @@
+2023-09-26 03:59:28,661 [INFO ]  Logging file is ./results/tinylic/logs/20230926_035928.log
+2023-09-26 03:59:28,662 [INFO ]  [PID] 31946
+2023-09-26 03:59:28,665 [INFO ]  ======================= TinyLIC =======================
+2023-09-26 03:59:35,484 [INFO ]  Full-precision model: psnr= 24.28; ms-ssim=0.9060; bpp= 0.221
+2023-09-26 03:59:40,886 [INFO ]  generate quantized model time: 5.162351131439209
+2023-09-26 03:59:41,176 [INFO ]  INT8: psnr= 23.76; ms-ssim=0.8914; bpp= 0.195
+2023-09-26 03:59:41,871 [INFO ]  save quantized model in ./results/tinylic/outputs
