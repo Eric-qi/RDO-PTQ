@@ -1,1 +1,1 @@
-## download pretrained models and put it here.
+## download pretrained models and put them here.
