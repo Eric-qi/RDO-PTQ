@@ -45,11 +45,15 @@ We release a more lightweight task-oriented posting-training quantization (PTQ) 
 
 * config
 
+* our results can also be downloaded from [Google Drive](https://drive.google.com/drive/folders/1AXZ2yZgtf-_csmSTkE6j6m6zlLVbkdMT?usp=sharing)
+
 ## Usage
 
 > **Note 1**: For MSE, lambda is chosen from **{0.0018, 0.0035, 0.0067, 0.0130, 0.0250, 0.0483}**;
 
 > **Note 2**: For MS-SSIM, lambda is chosen from **{2.40, 4.58, 8.73, 16.64, 31.73, 60.50}**;
+
+The FP32 models can be downloaded from [Google Drive](https://drive.google.com/drive/folders/1cYLvwcrVvnB8Xuoni6jeItb9tlCYBR7O?usp=sharing)
 
 ###  Train Lu2022
 
