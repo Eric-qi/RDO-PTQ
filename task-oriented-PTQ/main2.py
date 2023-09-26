@@ -31,7 +31,7 @@ def parse_args(argv):
     parser.add_argument('--batch_size', default=4, type=int, help='mini-batch size for data loader')
     parser.add_argument('--name', default=datetime.now().strftime('%Y-%m-%d_%H_%M_%S'), type=str, help='result dir name')
     parser.add_argument('--arch', default='Lu2022', type=str, help='model name', 
-                        choices=['Lu2022', 'Cheng2020', 'Minnen2018', ])
+                        choices=['Lu2022', 'Cheng2020', ])
     parser.add_argument('--type', default='mse', type=str, help='model loss type', choices=['mse','ms-ssim',])
     parser.add_argument('--lmbda', default=0.0483, type=float, 
                         help='the lmbda related to quality, 0.0018, 0.0035, 0.0067, 0.0130, 0.0250, 0.0483')
