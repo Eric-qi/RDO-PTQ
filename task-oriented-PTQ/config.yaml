@@ -1,0 +1,55 @@
+# logger options
+# snapshot_save_epoch: 10
+# log_itr: 1000
+
+# optimization options
+# epochs: 400
+# lr: 0.0001
+# lr_aux: 0.001
+# lr_shedule_step: 200
+# lr_shedule_scale: 0.5
+clip_max_norm: 1
+
+# training setting
+metric: mse
+# gpu_id: 1
+# quality_level: '1'
+# lmbda: 0.0018 # 1
+# lmbda: 0.0067 # 3
+# lmbda: 0.025 # 5
+# lmbda: 0.18 # 8
+# lmbda: 0.0018 
+
+# fine-tuning options
+# set_lr: 0
+
+# model hyperparamters
+height: 256
+width: 256
+in_chans: 3
+embed_dim: 192
+latent_dim: 320
+num_tokens: 8
+window_size: 8
+layer_scale_init_value: 0.000001
+mlp_ratio: 2.
+qkv_bias: True
+qk_scale:
+drop_rate: 0.
+attn_drop_rate: 0.
+drop_path_rate: 0.1
+use_checkpoint: False
+num_slices: 10
+max_support_slices: 5
+
+
+# data options
+trainset: ./datasets
+c_data: clic41
+# c_data: flicker
+t_data: kodak24
+batchsize: 4
+batchsize_test: 1
+patchsize: 256
+worker_num: 4
+p: 0.5
