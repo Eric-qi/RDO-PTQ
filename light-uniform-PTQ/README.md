@@ -56,8 +56,12 @@
 
 * FP32 & FP16 & INT8: the dir of saved reconstruction images
 
+* our results can also be downloaded form [Google Drive](https://drive.google.com/drive/folders/1HVJmoB5y3nTRlretEvEEu2h0PzFgzr7i?usp=sharing)
 
 ## Usage
+
+The pretrained FP32 models can be downloaded from [Google Drive](https://drive.google.com/drive/folders/1eufNK1mlfEPspRFN1zHPFWPGVfjMY1U1?usp=sharing). 
+Please put FP32 checkpoint under folder "pretrained", i.e., "···/pretrained/tinylic.pth.tar"
 
 1. quantize.py: to quantize FP32 models to INT8 or FP16
 
