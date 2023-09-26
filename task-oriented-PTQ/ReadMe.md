@@ -53,7 +53,8 @@ We release a more lightweight task-oriented posting-training quantization (PTQ) 
 
 > **Note 2**: For MS-SSIM, lambda is chosen from **{2.40, 4.58, 8.73, 16.64, 31.73, 60.50}**;
 
-The FP32 models can be downloaded from [Google Drive](https://drive.google.com/drive/folders/1cYLvwcrVvnB8Xuoni6jeItb9tlCYBR7O?usp=sharing)
+The FP32 models can be downloaded from [Google Drive](https://drive.google.com/drive/folders/1cYLvwcrVvnB8Xuoni6jeItb9tlCYBR7O?usp=sharing). 
+Please put pretrained FP32 checkpoints under folder "ckpts", e.g., "···/ckpts/Lu2022/mse/nic_mse_6.pt", "···/ckpts/Lu2022/ms-ssim/nic_ms-ssim_6.pt".
 
 ###  Train Lu2022
 
