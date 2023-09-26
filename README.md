@@ -4,15 +4,9 @@
 
 
 ## Overview
-We do not notice any publicly accessible materials for quantizing LIC and we try to provide some materials. We will provide:
-* **Literature Comparison:** data statistics about LIC quantization
-* **PTQ optimization:** task-oriented PTQ works and novel PTQ works
-* **Reproduction:** the reproduction and improvement of some quantization for LIC, SR (super-resoluation) and Image Classification
-* **RDO-PTQ:** A partial materials of code, models, datasets
+This repository contains the simple implementation of PTQ for LIC.
 
-> **Note**: Due to the limitations of the capabilities, some errors and bugs are inevitable. Our goal is to provide some materials and data that are easy to use.
-
-
+Our goal is to provide some materials and data that are easy to use for further study. Some errors are inevitable.
 
 
 
@@ -20,13 +14,13 @@ We do not notice any publicly accessible materials for quantizing LIC and we try
 ### We researched most of works on quantization of LIC as we can. These works containg:
 * [[ICLR 2019]](https://openreview.net/forum?id=S1zz2i0cY7) `Ballé et al., 2019` : Interger Networks for Data Compression with Latent-Variable Models
 * [[ICIP 2020]](https://ieeexplore.ieee.org/abstract/document/9190805) `Sun et al., 2020` : End-to-End Learned Image Compression with Fixed Point Weight Quantization
-* [[TCSV T2020]](https://ieeexplore.ieee.org/abstract/document/9270012) `Hong et al., 2020` : Efficient Neural Image Decoding via Fixed-Point Inference
+* [[TCSVT 2020]](https://ieeexplore.ieee.org/abstract/document/9270012) `Hong et al., 2020` : Efficient Neural Image Decoding via Fixed-Point Inference
 * [[PCS 2021]](https://ieeexplore.ieee.org/abstract/document/9477496)  `Sun et al., 2021` : Learned Image Compression with Fixed-point Arithmetic
 * [[Arxiv 2021]](https://arxiv.org/abs/2111.09348) `Sun et al., 2021*` : End-to-End Learned Image Compression with Quantized Weights and Activations
 * [[Arxiv 2022]](https://arxiv.org/abs/2202.07513) `He et al., 2022` : Post-Training Quantization for Cross-Platform Learned Image Compression
 * [[PCS 2022]](https://ieeexplore.ieee.org/abstract/document/10018040) `Koyuncu et al., 2022` : Device Interoperability for Learned Image Compression with Weights and Activations Quantization
 * [[TCSVT2022]](https://ieeexplore.ieee.org/abstract/document/9997555) `Sun et al., 2022` : Q-LIC: Quantizing Learned Image Compression with Channel Splitting
-* [[Arxiv 2022]](https://arxiv.org/pdf/2211.02854v1.pdf) `Shi et al., 2022` : Rate-Distortion Optimized Post-Training Quantization for Learned Image Compression
+* [[Arxiv 2023]](https://arxiv.org/pdf/2211.02854v2.pdf) `Shi et al., 2023` : Rate-Distortion Optimized Post-Training Quantization for Learned Image Compression
 * [`updating`]()
 
 ### Results of quantizing LIC in terms of BD-rate.
@@ -85,21 +79,25 @@ Recently, a lot of works have recognized that minimizing quantization error may 
 * [[ML 2021]](https://link.springer.com/article/10.1007/s10994-021-06053-z) `LAPQ` : Loss aware post-training quantization`
 * [[ICLR 2021]](https://arxiv.org/abs/2102.05426) `BRECQ` : BRECQ: Pushing the Limit of Post-Training Quantization by Block Reconstruction
 * [[ICLR 2022]](https://arxiv.org/abs/2203.05740) `QDrop` : QDrop: Randomly Dropping Quantization for Extremely Low-bit Post-Training Quantization
-
+* [[CVPR 2023]](https://arxiv.org/abs/2212.07048) `PD-Quant` : PD-Quant: Post-Training Quantization Based on Prediction Difference Metric
+* [[Arxiv 2023]](https://arxiv.org/abs/2208.11945) `AQuant` : Efficient Adaptive Activation Rounding for Post-Training Quantization
 * [[updating]]()
 
 
 
 
-## 3.&ensp;Reproduction
-updating
+## 3.&ensp;Usage
 
-## 4.&ensp;RDO-PTQ 
-
-
+* Environment
+```bash
+        pip install -r requirements.txt
 ```
-updating ...
-```
+
+* light uniform PTQ
+
+* task-oriented PTQ
+
+* ...
 
 
 
@@ -115,6 +113,9 @@ If you use this project, please considering citing the relevant original publica
 	}
 
 
-## Additional links
 
-updating
+
+## Acknowledgement
+This framework is based on [BRECQ](https://github.com/yhhhli/BRECQ), [CompressAI](https://github.com/InterDigitalInc/CompressAI/), and [TinyLIC](https://github.com/lumingzzz/TinyLIC).
+
+We thank the authors for sharing their codes.
