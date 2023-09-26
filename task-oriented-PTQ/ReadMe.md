@@ -5,17 +5,17 @@ We release a more lightweight task-oriented posting-training quantization (PTQ) 
 ## TODO
 ✅ release related codes
 
-<input type="checkbox" disabled /> support multi-bit layer-wise activation quantization to reduce coding time;
+☑️ support multi-bit layer-wise activation quantization to reduce coding time;
 
-<input type="checkbox" disabled /> optimize activation quantization;
+☑️ optimize activation quantization;
 
-<input type="checkbox" disabled /> check the correction of codes;
+☑️ check the correction of codes;
 
-<input type="checkbox" disabled /> add other models;
+☑️ add other models;
 
-<input type="checkbox" disabled /> update other PTQ methods for LICs;
+☑️ update other PTQ methods for LICs;
 
-<input type="checkbox" disabled /> ...
+☑️ ...
 
 
 
