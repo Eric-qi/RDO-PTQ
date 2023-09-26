@@ -4,13 +4,13 @@
 ## TODO
 ✅ update light uniform PTQ codes
 
-<input type="checkbox" disabled /> update solutions for loading INT8 model from INT8.pt;
+☑️ update solutions for loading INT8 model from INT8.pt;
 
-<input type="checkbox" disabled /> check the correction of codes;
+☑️ check the correction of codes;
 
-<input type="checkbox" disabled /> update other light PTQ methods;
+☑️ update other light PTQ methods;
 
-<input type="checkbox" disabled /> ...
+☑️ ...
 
 
 ## Function
