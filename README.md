@@ -19,8 +19,8 @@ Our goal is to provide some materials and data that are easy to use for further 
 * [[Arxiv 2021]](https://arxiv.org/abs/2111.09348) `Sun et al., 2021*` : End-to-End Learned Image Compression with Quantized Weights and Activations
 * [[Arxiv 2022]](https://arxiv.org/abs/2202.07513) `He et al., 2022` : Post-Training Quantization for Cross-Platform Learned Image Compression
 * [[PCS 2022]](https://ieeexplore.ieee.org/abstract/document/10018040) `Koyuncu et al., 2022` : Device Interoperability for Learned Image Compression with Weights and Activations Quantization
-* [[TCSVT2022]](https://ieeexplore.ieee.org/abstract/document/9997555) `Sun et al., 2022` : Q-LIC: Quantizing Learned Image Compression with Channel Splitting
-* [[Arxiv 2023]](https://arxiv.org/pdf/2211.02854v2.pdf) `Shi et al., 2023` : Rate-Distortion Optimized Post-Training Quantization for Learned Image Compression
+* [[TCSVT 2022]](https://ieeexplore.ieee.org/abstract/document/9997555) `Sun et al., 2022` : Q-LIC: Quantizing Learned Image Compression with Channel Splitting
+* [[TCSVT 2023]](https://arxiv.org/abs/2211.02854) `Shi et al., 2023` : Rate-Distortion Optimized Post-Training Quantization for Learned Image Compression
 * [`updating`]()
 
 ### Results of quantizing LIC in terms of BD-rate.
