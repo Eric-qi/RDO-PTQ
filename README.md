@@ -105,12 +105,17 @@ Recently, a lot of works have recognized that minimizing quantization error may 
 
 If you use this project, please considering citing the relevant original publications for the models and datasets, and citing the paper as:
 
-	@article{shi2022rate,
-		title={Rate-Distortion Optimized Post-Training Quantization for Learned Image Compression},
-		author={Shi, Junqi and Lu, Ming and Ma, Zhan},
-		journal={arXiv preprint arXiv:2211.02854},
-		year={2023}
-	}
+	@ARTICLE{10274709,
+  		author={Shi, Junqi and Lu, Ming and Ma, Zhan},
+  		journal={IEEE Transactions on Circuits and Systems for Video Technology}, 
+  		title={Rate-Distortion Optimized Post-Training Quantization for Learned Image Compression}, 
+  		year={2023},
+  		volume={},
+  		number={},
+  		pages={1-1},
+  		doi={10.1109/TCSVT.2023.3323015}
+    	}
+
 
 
 
